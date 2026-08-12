@@ -1,0 +1,39 @@
+name: Sync offices from Google Sheets
+
+on:
+  schedule:
+    - cron: '17 8 * * *'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: sync-offices
+  cancel-in-progress: false
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v6
+      - name: Setup Node.js
+        uses: actions/setup-node@v6
+        with:
+          node-version: 24
+      - name: Download and validate offices
+        run: |
+          npm run sync
+          npm test
+      - name: Commit updated data
+        run: |
+          if git diff --quiet -- data/offices.json; then
+            echo "No data changes"
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/offices.json
+          git commit -m "chore: sync offices from Google Sheets"
+          git push

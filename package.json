@@ -1,0 +1,10 @@
+{
+  "name": "servientregaec-v1.0.3",
+  "version": "1.0.3",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "sync": "node scripts/sync-google-sheets.mjs",
+    "test": "node scripts/test-data.mjs"
+  }
+}
