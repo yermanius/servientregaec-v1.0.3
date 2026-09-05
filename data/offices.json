@@ -1,16 +1,16 @@
 {
   "metadata": {
     "version": "1.0.3",
-    "generatedAt": "2026-09-04T12:44:10.291Z",
+    "generatedAt": "2026-09-05T11:50:28.602Z",
     "source": "https://docs.google.com/spreadsheets/d/1Ayu_vTj8a5WELVuxZPQ9q5sTTtu10yFa/edit?gid=336887803#gid=336887803",
     "sheets": [
       "SERVIENTREGA",
       "LAARCOURIER",
       "URBANO"
     ],
-    "total": 748,
+    "total": 747,
     "byCarrier": {
-      "Servientrega": 670,
+      "Servientrega": 669,
       "LaarCourier": 48,
       "Urbano": 30
     }
@@ -3815,13 +3815,6 @@
       "ciudad": "Quito",
       "establecimiento": "Corea",
       "direccion": "10 DE AGOSTO N36-152 Y COREA",
-      "transportadora": "Servientrega"
-    },
-    {
-      "provincia": "Pichincha",
-      "ciudad": "Quito",
-      "establecimiento": "Cotocollao 2",
-      "direccion": "JOSE FIGUEROA OE4-14 Y 25 DE MAYO",
       "transportadora": "Servientrega"
     },
     {
