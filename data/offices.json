@@ -1,16 +1,16 @@
 {
   "metadata": {
     "version": "1.0.3",
-    "generatedAt": "2026-09-24T13:34:01.708Z",
+    "generatedAt": "2026-09-25T13:49:46.586Z",
     "source": "https://docs.google.com/spreadsheets/d/1Ayu_vTj8a5WELVuxZPQ9q5sTTtu10yFa/edit?gid=336887803#gid=336887803",
     "sheets": [
       "SERVIENTREGA",
       "LAARCOURIER",
       "URBANO"
     ],
-    "total": 747,
+    "total": 748,
     "byCarrier": {
-      "Servientrega": 669,
+      "Servientrega": 670,
       "LaarCourier": 48,
       "Urbano": 30
     }
@@ -1743,6 +1743,13 @@
       "ciudad": "Guayaquil",
       "establecimiento": "Guangala",
       "direccion": "CDLA. GUANGALA CALLE ERNESTO ALBAN MOSQUERA SOLAR 2 MZ. E1 DIAG. HOSP. TEODORO MALDONADO CARBO",
+      "transportadora": "Servientrega"
+    },
+    {
+      "provincia": "Guayas",
+      "ciudad": "Guayaquil",
+      "establecimiento": "Guasmo Sur La Pendola",
+      "direccion": "CALLE DRA MARIA ARGUDO CHEJIN Y AV DOMINGO COMIN A 100 METROS DEL DISPENSARIO",
       "transportadora": "Servientrega"
     },
     {
