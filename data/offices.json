@@ -1,16 +1,16 @@
 {
   "metadata": {
     "version": "1.0.3",
-    "generatedAt": "2026-11-16T18:34:51.769Z",
+    "generatedAt": "2026-11-17T17:38:18.785Z",
     "source": "https://docs.google.com/spreadsheets/d/1Ayu_vTj8a5WELVuxZPQ9q5sTTtu10yFa/edit?gid=336887803#gid=336887803",
     "sheets": [
       "SERVIENTREGA",
       "LAARCOURIER",
       "URBANO"
     ],
-    "total": 748,
+    "total": 750,
     "byCarrier": {
-      "Servientrega": 670,
+      "Servientrega": 672,
       "LaarCourier": 48,
       "Urbano": 30
     }
@@ -4478,6 +4478,13 @@
     {
       "provincia": "Pichincha",
       "ciudad": "Quito",
+      "establecimiento": "Santa Prisca Bco Central",
+      "direccion": "DIR: 10 DE AGOSTO N11-487 Y CARLOS IBARRA",
+      "transportadora": "Servientrega"
+    },
+    {
+      "provincia": "Pichincha",
+      "ciudad": "Quito",
       "establecimiento": "Santa Rosa Pomasqui",
       "direccion": "AV. SIMON BOLIVAR S/N Y EUGENIO DE SANTACRUZ Y ESPEJO",
       "transportadora": "Servientrega"
@@ -4802,6 +4809,13 @@
       "ciudad": "San Pablo (Santa Elena)",
       "establecimiento": "Principal",
       "direccion": "CALLE PRINCIPAL RUTA SPONDYLUS ENTRADA DE SAN PABLO, BAJANDO EL PUENTE (BARRIO 1 DE JUNIO)",
+      "transportadora": "Servientrega"
+    },
+    {
+      "provincia": "Santa Elena",
+      "ciudad": "Santa Elena",
+      "establecimiento": "Calle Colonche",
+      "direccion": "CALLE COLONCHE ENTRE MANABI Y VIRGILIO DRUETH DIAGONAL A FARMACIA SANTA MARTHA",
       "transportadora": "Servientrega"
     },
     {
