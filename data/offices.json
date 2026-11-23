@@ -1,16 +1,16 @@
 {
   "metadata": {
     "version": "1.0.3",
-    "generatedAt": "2026-11-22T16:17:45.769Z",
+    "generatedAt": "2026-11-23T20:15:10.917Z",
     "source": "https://docs.google.com/spreadsheets/d/1Ayu_vTj8a5WELVuxZPQ9q5sTTtu10yFa/edit?gid=336887803#gid=336887803",
     "sheets": [
       "SERVIENTREGA",
       "LAARCOURIER",
       "URBANO"
     ],
-    "total": 750,
+    "total": 751,
     "byCarrier": {
-      "Servientrega": 672,
+      "Servientrega": 673,
       "LaarCourier": 48,
       "Urbano": 30
     }
@@ -2128,6 +2128,13 @@
       "ciudad": "Milagro",
       "establecimiento": "Av Chirijos",
       "direccion": "AV CHIRIJOS ENTRE GUAYAS Y SUCUMBIOS",
+      "transportadora": "Servientrega"
+    },
+    {
+      "provincia": "Guayas",
+      "ciudad": "Milagro",
+      "establecimiento": "Av Guayaquil",
+      "direccion": "AV GUAYAQUIL Y MANABI A UNA CUADRA DEL TORO ASADO",
       "transportadora": "Servientrega"
     },
     {
